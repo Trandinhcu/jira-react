@@ -1,0 +1,15 @@
+{
+  "name": "jira_clone",
+  "version": "1.0.0",
+  "author": "Ivor Reic",
+  "license": "MIT",
+  "scripts": {
+    "install-dependencies": "npm install && cd api && npm install && cd ../client && npm install",
+    "build": "cd api && npm run build && cd ../client && npm run build",
+    "start:production": "cd api && npm run start:production && cd ../client && npm run start:production"
+  },
+  "devDependencies": {
+    "husky": "^4.0.0-beta.5"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,9 @@
+.form-item-profile input {
+    text-align: center !important;
+}
+
+.ant-form label {
+    float: left;
+    padding: 0.25rem;
+}
+  
